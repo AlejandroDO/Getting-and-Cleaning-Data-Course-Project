@@ -8,7 +8,7 @@
     download.file(urlZip,"./Dataset.zip")
     unzip("./Dataset.zip")
     
-   
+    library(dplyr)
     ## Reading features file
     features <- read.table("./UCI HAR Dataset/features.txt", col.names = c("rowNumber","variable"))
     View(features)
