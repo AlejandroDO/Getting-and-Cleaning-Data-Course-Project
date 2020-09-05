@@ -1,6 +1,6 @@
 ## CODE BOOK
 
-##  Variables
+##  Objects
 
 cdir - the current working directory
 
